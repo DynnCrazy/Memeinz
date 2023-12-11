@@ -1,0 +1,371 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #ffae00;
+border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #00ca5b;
+border-radius: 20px;
+border: 6px solid transparent;
+background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #00b150;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#00ca5b;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 9px 8px;
+    text-decoration: none;
+    font-family: "Times New Roma";
+    font-size: 14px;
+  }
+  
+  li a:hover {
+    background-color:#00850b;
+  }
+
+  .navbar a {
+    float: right;
+    font-size: 14px;
+    color: #00ca5b;
+    text-align: center;
+    padding: 9px 17px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 9px 17px;
+    background-color: inherit;
+    font-family: "Times Ne Roma"; /* Important for vertical align on mobile phones */
+    margin: 0;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(12, 143, 0);
+    overflow-x: hidden;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00ca5b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-x: hidden;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(255, 248, 248);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: "Times New Roma";
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:#00850b;
+    overflow-x: hidden;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  body { font-family: 'Arial', sans-serif; padding: 0px; }
+  .slider {
+  width: 15%;
+  color:white;
+  text-align: center;
+  overflow: hidden;
+  margin: 30px 0;
+  }
+  .slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  }
+  .slides::-webkit-scrollbar { width: 5px; height: 5px; }
+  .slides::-webkit-scrollbar-thumb { background: #ff9900; border-radius: 5px; }
+  .slides::-webkit-scrollbar-track { background: transparent; }
+  .slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  margin: 0 9px 0 9px;
+  border-radius: 7px;
+  background: #fff;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 1s;
+  position: relative;
+  border: 1px solid #ffa600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 100%;
+  }
+  
+  .button {
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 9px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #00ca5b;
+  }
+
+  .button2 {
+  border: none;
+  border-radius: 22px;
+  color: white;
+  padding: 9px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #ffae00;
+  }
+
+  .button3 {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 9px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #ffae00;
+  }
+
+  .button4 {
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 4px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #00ca5b;
+  }
+
+  .backbutton {
+  border: none;
+  border-radius: 7px;
+  color: white;
+  padding: 4px 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #00ca5b;
+  }
+
+  .buttoncmd {
+    border: none;
+    border-radius: 22px;
+    color: white;
+    padding: 9px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #00ca5b;
+    }
+
+  .prembutton {
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 3px;
+    cursor: pointer;
+    background-color: #00ca5b;
+    }
+
+.boxlogsupdate {
+  background-color: #00ca5b;
+  border: 10px;
+  border-radius: 14px;
+  color: #ffffff;
+  overflow-y: hidden;
+  padding: 15px;
+  text-align: center;
+  width: 320px;
+  height: auto;
+}
+
+.boxcommandlist {
+  background-color: #00ca5b;
+  border: 10px;
+  border-radius: 14px;
+  overflow-y: hidden;
+  padding: 5px;
+  text-align: center;
+  width: 333px;
+  height: auto;
+}
+
+.lgspen123 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.cmdspen123 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.feedback {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  background: #00ca5b;
+  padding: 50px;
+  width: 270px;
+  box-shadow: none;
+  border-radius: 15px;
+}
+.feedback h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  padding-top: 0;
+  margin-top: -20px;
+}
+.box-feedback {
+  display: flex;
+  justify-content:space-between;
+  margin: 10px;
+  border-bottom: 2px solid white;
+  padding: 8px 0px;
+}
+.box-feedback i {
+  font-size: 23px;
+  color: white;
+  padding: 5px 0;
+}
+.box-feedback input {
+  width: 85%;
+  padding: 5px 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+.box-feedback input::placeholder {
+  color: white;
+}
+.btn-feedback
+.box-feedback input:hover{
+  background: #00850b;
+  box-shadow: #00850b;
+}
+.btn-feedback {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background: none;
+  border: 1px solid white;
+  width: 92.5%;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  }
+.btn-feedback:hover{
+  background: #00850b;
+  box-shadow: #00850b;
+}
+.bottom {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.bottom a:hover {
+ text-decoration: underline;
+}
+.bodyweb1 {
+  background-color: #ffae00;
+  color:white;
+  overflow: hidden;
+}
+.bodyweb2 {
+  background-color: #ffae00;
+  color:white;
+  overflow-x: hidden;
+}
+
+.pppqwen {
+  margin-top: -3px;
+}
