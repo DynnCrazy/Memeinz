@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="Ast/Image/mmz.memeinz.png">
+    <title>Memeinz</title>
+    <style type='text/css'> .content-inner { margin-top: -30px !important; } </style>
+    <link rel="stylesheet" href="Script/style.css">
+    <script src="Script/script.js"></script>
+</head>
+<body class="bodyweb2">
+    <font face="Arial">
+        <nav>
+            <ul class="ListRight">
+              <li><a href="index.html" >Memeinz</a></li>
+              <li style="float:right"><a href="https://discord.gg/RbHfv59Dgn">Support</a></li>
+              <div class="dropdown">
+                  <button class="dropbtn">More
+                     <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="index.html">Profile</a>
+                    <a href="premium.html">Premium</a>
+                    <a href="command.html">Command</a>
+                    <a href="logs-update.html">Logs Update</a>
+                  </div>
+              </div>
+            </ul>
+        </nav>
+        <center>
+            <h1 style="color:#ffffff;">MEMEINZ</h1>
+                <p style="color: #ffffff;">Memeinz adalah bot discord yang bertemakan meme, fun, minigames, utility, dan criminal economy yang di buat oleh DynCrazy#0280 pada tanggal 18 September 2022 .</p>
+                <br>
+
+            <table>
+                <tr style="color: #ffffff;">
+                    <td><b>PREFIXㅤ</b></td>
+                    <td><b>:ㅤ /</b></td>
+                </tr>
+                <tr style="color: #ffffff;">
+                    <td><b>COMMANDㅤ</b></td>
+                    <td><b>:ㅤ60+</b></td>
+                </tr>
+                <tr style="color: #ffffff;">
+                    <td><b>SERVERㅤ</b></td>
+                    <td><b>:ㅤ600+</b></td>
+                </tr>
+                <tr style="color: #ffffff;">
+                    <td><b>USERㅤ</b></td>
+                    <td><b>:ㅤ90,000+</b></td>
+                </tr>
+            </table>
+
+            <script>
+                // Mendapatkan tanggal saat ini
+                var today = new Date();
+                var day = today.getDate();
+                var month = today.getMonth() + 1; // Perlu ditambah 1 karena indeks bulan dimulai dari 0
+        
+                // Mengganti gambar berdasarkan tanggal
+                var imageSrc;
+                if (month == 12) {
+                    if (day >= 23 && day <= 27) {
+                        imageSrc = "Ast/Image/Profile/mmz.natal2022.jpg";
+                    } else if (day == 28) {
+                        imageSrc = "Ast/Image/Profile/mmz.normal.jpg";
+                    } else {
+                        imageSrc = "Ast/Image/Profile/mmz.normal.jpg";
+                    }
+                } else if (month == 1) {
+                    if (day >= 3 && day <= 7) {
+                        imageSrc = "Ast/Image/Profile/mmz.normal.jpg";
+                    } else if (day == 8) {
+                        imageSrc = "Ast/Image/Profile/mmz.normal.jpg";
+                    } else {
+                        imageSrc = "Ast/Image/Profile/mmz.normal.jpg";
+                    }
+                } else {
+                    imageSrc = "Ast/Image/Profile/mmz.normal.jpg";
+                }
+
+                var imageElement = document.createElement("img");
+                imageElement.src = imageSrc;
+                imageElement.alt = "Gambar Hari Ini";
+                // Atur ukuran gambar
+                imageElement.style.width = "200px";  // Ganti sesuai kebutuhan
+                imageElement.style.height = "auto";   // Biarkan tinggi menyesuaikan proporsional
+                imageElement.style.border = "2px solid white";
+
+                imageElement.style.position = "absolute";
+                imageElement.style.top = "60%";
+                imageElement.style.left = "50%";
+                imageElement.style.transform = "translate(-50%, -50%)";
+
+                document.body.appendChild(imageElement);
+            </script>
+
+        </center>
+    </font>
+</body>
+</html>
