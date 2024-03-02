@@ -1,0 +1,45 @@
+/* ===== ALL DEVICE ===== */
+.cmd-meme-img {
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+/* ===== KOMPUTER ===== */
+@media (min-width: 768px) {
+    .cmd-meme-img {
+        width: 25%;
+    }
+    .cmd-meme-btn {
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        background-color: #00ca5b;
+        width: 10%;
+        padding: 7px;
+    }
+    .cmd-meme-btn:hover {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+
+/* ===== HANDPHONE ===== */
+@media (max-width: 767px) {
+    .cmd-meme-img {
+        width: 70%;
+    }
+    .cmd-meme-btn {
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        background-color: #00ca5b;
+        width: 20%; 
+        padding: 7px;
+    }
+    .cmd-meme-btn:hover {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
