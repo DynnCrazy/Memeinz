@@ -253,6 +253,12 @@ background-color: #00b150;
   text-align: center;
   width: 320px;
   height: auto;
+  margin: 5px;
+}
+
+.boxlogsupdate:hover {
+  background-color: #00c056;
+  margin: 7px;
 }
 
 .boxcommandlist {
