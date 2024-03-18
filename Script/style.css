@@ -397,3 +397,45 @@ background-color: #00b150;
 .inthefaq {
   color: white;
 }
+
+/* Hp */
+@media only screen and (max-width: 600px) {
+  .boxlogsupdate {
+    background-color: #00ca5b;
+    border: 10px;
+    border-radius: 14px;
+    color: #ffffff;
+    overflow-y: hidden;
+    padding: 9px;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .boxlogsupdate:hover {
+    background-color: #00c056;
+    margin: 7px;
+  }
+}
+
+/* Other */
+@media only screen and (min-width: 601px) {
+  .boxlogsupdate {
+    background-color: #00ca5b;
+    border: 10px;
+    border-radius: 14px;
+    color: #ffffff;
+    overflow-y: hidden;
+    padding: 9px;
+    text-align: center;
+    width: 320px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .boxlogsupdate:hover {
+    background-color: #00c056;
+    margin: 7px;
+  }
+}
