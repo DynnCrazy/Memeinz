@@ -367,6 +367,12 @@ background-color: #00b150;
   overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
+.bodyweb000 {
+  background-color: #ffae00;
+  color:white;
+  overflow-y: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .pppqwen {
   margin-top: -3px;
 }
@@ -380,7 +386,7 @@ background-color: #00b150;
 
 .faqu {
   font-weight: bold; 
-  font-size: large;
+  font-size: large    ;
 }
 .inthefaq {
   color: white;
